@@ -32,7 +32,6 @@ img {
 }
 
 .wrapper .sidebar h2{
-  color: #ffe5f3;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -40,23 +39,25 @@ img {
 
 .wrapper .sidebar ul li{
   padding: 15px;
-  border-bottom: 1px solid #ffe5f3
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px;
+  border-bottom: 1px;
+  border-top: 1px;
 }
 
 .wrapper .sidebar ul li a{
-  color:;
+  color:black;
   display: block;
   width: 80%;
+
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+  background-color:#bed1e4;
 }
 
 .wrapper .sidebar ul li:hover a{
   color: #fff;
+  text-decoration: underline;
 }
 
 .wrapper .sidebar .social_media{
@@ -70,16 +71,26 @@ img {
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #594f8d;
+  background: #bed1e4;
   height: 40px;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
-  color: #bdb8d7;
+  color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
+.budskabstekst {
+  background-color: rgba(190, 209, 228, 0.7) ; 
+  line-height: 1.8;
+  width: 600px;
+  height: auto;
+  padding: 40px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -450px;
+}
 * {box-sizing: border-box} 
 
 /* Hide the images by default */
@@ -155,6 +166,8 @@ img {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.tekst {font-size: 11px}
 }
+
+
 
