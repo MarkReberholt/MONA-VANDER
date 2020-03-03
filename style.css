@@ -10,7 +10,7 @@
 }
 
 body{
-   background-color: #f3f5f9;
+   background-color:white ;
 }
 
 /* logo billede*/
@@ -26,7 +26,7 @@ img {
 
 .wrapper .sidebar{
   height: 100%;
-  background: #4b4276;
+  background: white;
   position: fixed;
   width: 18%;
 }
@@ -85,10 +85,10 @@ img {
 /* Hide the images by default */
 .mySlides {
   display:none;
-  width: 1150px;
-  height: 650px;
-  margin-top: 5px;
-  margin-left: 275px;
+  width: 1180px;
+  height:680px;
+  margin-top:0px;
+  margin-left: 258px;
 }
 
 .prev {
@@ -138,6 +138,7 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 
 .active, .dot:hover {
   background-color: #717171;
