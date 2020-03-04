@@ -81,7 +81,7 @@ body{
   border-top-right-radius: 5px;
 }
 
-.budskabstekst {
+.text {
   background-color: rgba(190, 209, 228, 0.7) ; 
   line-height: 1.8;
   width: 600px;
@@ -92,31 +92,10 @@ body{
   margin-top: -450px;
 }
 
-.minibudskab {
-  background-color: rgba(190, 209, 228, 0.7) ; 
-  line-height: 1.8;
-  width: 600px;
-  height: auto;
-  padding: 40px;
-  position: absolute;
-  margin-left: 700px;
-  margin-top: -450px;
-}
-
-.tekstommona{
-  background-color: rgba(190, 209, 228, 0.7) ; 
-  line-height: 1.8;
-  width: 600px;
-  height: auto;
-  padding: 40px;
-  position: absolute;
-  margin-left: 700px;
-  margin-top: -450px;
-}
 * {box-sizing: border-box} 
 
 /* Hide the images by default */
-.mySlides {
+.mySlides{
   display:none;
   width: 1182px;
   height:720px;
