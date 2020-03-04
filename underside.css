@@ -20,17 +20,11 @@ body{
   margin: 30px 0 30px 75px;
 }
 
-/*_______________________WEBSHOP STARTSIDE___________________*/
-
-
-.img-banner { /* webshop: banner - portræt */
-  width: auto;
-  height: 400px;
-  position: relative; /* relative = det er en del af "tegnebrættet" -> "absolut" = ligesom hvis det sidder på skærmen i en låst position - andre elementer hopper ind under */
-  margin-left: 18%; /* banneret starter fra menubaren + responsiv ->
-  (rediger i photoshop med nyt billede fra Mona Vander) */
+.banner { /* webshop: banner - portræt */
+  width: 1180px;
+  height: auto;
+  margin-left: 18%; /* banneret starter fra menubaren + responsiv */
   margin-top: 0;
-  margin-right: 0;
   margin-bottom: 100px;
 }
 
