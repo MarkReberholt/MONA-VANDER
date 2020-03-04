@@ -10,7 +10,7 @@
 }
 
 body{
-   background-color: #fff;
+   background-color: #f3f5f9;
 }
 
 /* logo billede*/
@@ -33,6 +33,50 @@ body{
   font-size: 30px;
   margin-left: 20%;
 }
+
+.flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.img_product_ansigtskrus{
+  border: solid #fff;
+  border-radius: 200px;
+  margin: 1%;
+  max-width: 100%;
+  max-height: 160px;
+}
+
+.img_product_kokkenet{
+  border: solid #fff;
+  border-radius: 200px;
+  margin: 1%;
+  max-width: 100%;
+  max-height: 160px;
+}
+
+.img_product_skulpturer{
+  border: solid #fff;
+  border-radius: 200px;
+  margin: 1%;
+  max-width: 100%;
+  max-height: 160px;
+}
+
+.img_product_vaser{
+  border: solid #fff;
+  border-radius: 200px;
+  margin: 1%;
+  max-width: 100%;
+  max-height: 160px;
+}
+
+
+
+/*_______________________PRODUCT CARDS______________________*/
 
 .flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
@@ -76,6 +120,9 @@ body{
   width: 300px;
   height: 100%;
 }
+
+/*_______________________MENUENS OPBYGNING______________________*/
+
 .wrapper{
   display: flex;
   position: relative;
@@ -83,12 +130,13 @@ body{
 
 .wrapper .sidebar{
   height: 100%;
-  background: white;
+  background: #4b4276;
   position: fixed;
   width: 18%;
 }
 
 .wrapper .sidebar h2{
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -96,26 +144,26 @@ body{
 
 .wrapper .sidebar ul li{
   padding: 15px;
-  border-bottom: 1px;
-  border-bottom: 1px;
-  border-top: 1px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
 }
 
 .wrapper .sidebar ul li a{
-  color:black;
+  color: #bdb8d7;
   display: block;
   width: 80%;
-
 }
 
+
 .wrapper .sidebar ul li:hover{
-  background-color:#bed1e4;
+  background-color: #594f8d;
 }
 
 .wrapper .sidebar ul li:hover a{
   color: #fff;
-  text-decoration: underline;
 }
+
 
 .wrapper .sidebar .social_media{
   position: absolute;
@@ -128,12 +176,12 @@ body{
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #bed1e4;
+  background: #594f8d;
   height: 40px;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
-  color: #fff;
+  color: #bdb8d7;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
