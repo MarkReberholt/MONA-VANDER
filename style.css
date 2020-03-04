@@ -14,7 +14,7 @@ body{
 }
 
 /* logo billede*/
-img {
+.logo {
   width: 100px;
   height: 100px;
   margin: 30px 0 30px 75px;
@@ -32,7 +32,6 @@ img {
 }
 
 .wrapper .sidebar h2{
-  color: #fff;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -40,23 +39,25 @@ img {
 
 .wrapper .sidebar ul li{
   padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px;
+  border-bottom: 1px;
+  border-top: 1px;
 }
 
 .wrapper .sidebar ul li a{
-  color: #bdb8d7;
+  color:black;
   display: block;
   width: 80%;
+
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+  background-color:#bed1e4;
 }
 
 .wrapper .sidebar ul li:hover a{
   color: #fff;
+  text-decoration: underline;
 }
 
 .wrapper .sidebar .social_media{
@@ -70,25 +71,37 @@ img {
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #594f8d;
+  background: #bed1e4;
   height: 40px;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
-  color: #bdb8d7;
+  color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+.text {
+  background-color: rgba(190, 209, 228, 0.7) ; 
+  line-height: 1.8;
+  width: 600px;
+  height: auto;
+  padding: 40px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -450px;
 }
 
 * {box-sizing: border-box} 
 
 /* Hide the images by default */
-.mySlides {
+.mySlides{
   display:none;
-  width: 1180px;
-  height:680px;
+  width: 1182px;
+  height:720px;
   margin-top:0px;
   margin-left: 258px;
+  position: relative;
 }
 
 .prev {
@@ -99,9 +112,9 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color:#e7c7cf;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -115,17 +128,24 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  margin-left: 1400px;
-  color: white;
+  margin-left: 1390px;
+  color: #e7c7cf;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(115, 53, 93, 0.5);
+  
+}
+
+.prikker {
+  position: absolute;
+  margin-left:780px;
+  margin-top: -60px;
 }
 
 /* The dots/bullets/indicators */
@@ -133,7 +153,7 @@ img {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  background-color: #bbb;
+  background-color: #e7c7cf;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -141,12 +161,14 @@ img {
 
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #73355d;
 }
 
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.tekst {font-size: 11px}
 }
+
+
 
