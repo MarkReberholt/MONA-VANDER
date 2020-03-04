@@ -113,7 +113,7 @@ h2 {
   font-size: 15px;
   background: #fff;
   padding: 50px;
-  margin-left: 15%;
+  margin-left: 70%;
   margin-top: 80px;
 
   box-shadow: 10px 10px 5px grey;
@@ -150,7 +150,7 @@ h2 {
 .btn{ /* "button" */
   width: 60%; /* længden på knappen */
   text-align: center;
-  background: #D6611A;
+  background: #bed1e4;
   margin-left: 16%; /* placering af knap - for at få den fra venstre, ind til midten */
   padding: 15px;
   color: #fff; /* farven på teksten i knappen */
@@ -160,7 +160,7 @@ h2 {
 }
 
 .btn:hover{
-  color: #164040;
+  color: #e7c7cf;
 }
 
 .textbox{ /* Boxens opbygning */
@@ -173,8 +173,4 @@ h2 {
   margin-right: 100px;
   position: absolute;
 }
-
-
-
-
-  
+ 
