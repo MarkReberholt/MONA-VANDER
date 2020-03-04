@@ -184,11 +184,11 @@ h2 {
 }
 
 .btn:hover{
-  color: #e7c7cf;
+  color: #73355d;
 }
 
 .textbox{ /* Boxens opbygning */
-  border: solid #fff;
+  border: solid #73355d;
   max-width: 400px;
   max-height: 362px;
   top: 0px;
