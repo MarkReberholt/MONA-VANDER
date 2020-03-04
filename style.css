@@ -159,6 +159,21 @@ body{
   transition: background-color 0.6s ease;
 }
 
+.monaknap {
+  width: 60%; /* længden på knappen */
+  text-align: center;
+  background: #bed1e4;
+  padding: 15px;
+  color:black; /* farven på teksten i knappen */
+  border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
+  cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
+}
+
+.monaknap:hover{
+  color: white;
+  background-color: #e7c7cf;
+}
+
 
 .active, .dot:hover {
   background-color: #73355d;

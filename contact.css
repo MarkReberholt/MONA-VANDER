@@ -134,12 +134,14 @@ h2 {
   font-size: 15px;
   background: #fff;
   padding: 50px;
-  margin-left: 60%;
-  margin-top: 10%;
+
+  margin-left: 70%;
+  margin-top: -550px;
+
 
   box-shadow: 10px 10px 5px grey;
   /* border-radius: 30px; /* runde hjørner */
-  position: relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
+  position: absolute; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
 }
 
 .form,
@@ -197,5 +199,5 @@ h2 {
 .contactbillede{
 	margin-top: 0px;
 	width: 50%;
-	height: 500px;
+  height: 500px;
 }
