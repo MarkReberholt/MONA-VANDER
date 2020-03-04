@@ -104,15 +104,37 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-#tekst {
+.tekst1 {
   background-color:#FFFFFF;
-  width: 500px;
+  width: 200px;
   border: 1px solid ;
-  padding: 50px;
-  margin: 50px; 
+  padding: 20px;
+  margin: 20px; 
   position: relative;
   left: 150px;
   margin-top: 100px;
+  align-items: center;
+}
+.tekst2 {
+  background-color:#FFFFFF;
+  width: 200px;
+  border: 1px solid ;
+  padding: 20px;
+  margin: 20px; 
+  position: relative;
+  left: 150px;
+  margin-top: 100px;
+}
+.tekst3 {
+  background-color:#FFFFFF;
+  width: 200px;
+  border: 1px solid ;
+  padding: 20px;
+  margin: 20px; 
+  position: relative;
+  left: 150px;
+  margin-top: 100px;
+  margin-right: 10%;
 }
 .oeverstebillede {
 	margin-top: 0px;
@@ -124,16 +146,14 @@ h1 {
 	width: 100%;
 	height: 200px;
 }
-
-} 
 .contact-me{ /* Boxens opbygning */
-  width: 500px;
-  font-size: 15px;
-  background: #fff;
+  width: 450px;
+  font-size: 10px;
+  background: #BAC9E7;
   padding: 50px;
   margin-left: 60%;
-  margin-top: -550px;
-  box-shadow: 10px 10px 5px grey;
+  margin-top: -570px;
+  box-shadow: 10px 10px 5px #7996D1;
   /* border-radius: 30px; /* runde hjørner */
   position: absolute; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
 }
@@ -145,8 +165,8 @@ h1 {
 
 .form-items .input{ /* styling af alt hvad der er inden for boxen. */
   width: 100%;
-  margin-bottom: 5px;
-  padding: 15px 16px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
   box-sizing: border-box;/*Holder "skrivefelterne" inde for boxens borders */
   background: #ebeef1; /* meget lys grå: felterne */
   border: 0;
@@ -156,9 +176,9 @@ h1 {
 }
 
 .form-items .input.message{
-  height: 125px;
+  height: 100px;
   /* border-radius: 15px; */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 15px;
   resize: none; /* før kunne man trække ud i "Besked"feltet - denne kode stopper scale-funktionen = none */
 }
@@ -172,7 +192,7 @@ h1 {
   padding: 15px;
   color: #fff; /* farven på teksten i knappen */
   border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
-  box-shadow: 10px 10px 5px lightgrey;
+  box-shadow: 10px 10px 5px #7996D1;
   cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
 }
 
@@ -183,8 +203,7 @@ h1 {
 .textbox{ /* Boxens opbygning */
   border: solid #73355d;
   max-width: 400px;
-  max-height: 362px;
-  top: 0px;
+  max-height: 50px;
   padding-left: 20px;
   margin-left: 790px;
   margin-right: 100px;
@@ -194,4 +213,8 @@ h1 {
 	margin-top: 0px;
 	width: 50%;
   height: 500px;
+}
+p{
+  width: 400px;
+  font-size: 15px;
 }
