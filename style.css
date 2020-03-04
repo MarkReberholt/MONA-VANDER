@@ -6,7 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Spartan';
 }
 
 body{
@@ -48,7 +48,7 @@ body{
   color:black;
   display: block;
   width: 80%;
-
+  font-family: 'Spartan', bold;
 }
 
 .wrapper .sidebar ul li:hover{
