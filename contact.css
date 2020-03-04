@@ -104,9 +104,9 @@ body{
     border-top-right-radius: 5px;
   }
 #tekst {
-  background-color:#FFF7F6;
+  background-color:#FFFFFF;
   width: 500px;
-  border: 1px solid #D8BC7F;
+  border: 1px solid ;
   padding: 50px;
   margin: 50px; 
   position: relative;
@@ -134,8 +134,8 @@ h2 {
   font-size: 15px;
   background: #fff;
   padding: 50px;
-  margin-left: 70%;
-  margin-top: 80px;
+  margin-left: 60%;
+  margin-top: 10%;
 
   box-shadow: 10px 10px 5px grey;
   /* border-radius: 30px; /* runde hjørner */
