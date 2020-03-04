@@ -124,11 +124,7 @@ h1 {
 	width: 100%;
 	height: 200px;
 }
-h2 {
-  margin-left: 0px;
-  text-align: center;
-  font-family: 'poiret-one';
-  font-size: 20px;	
+
 } 
 .contact-me{ /* Boxens opbygning */
   width: 500px;
@@ -139,8 +135,7 @@ h2 {
   margin-top: -550px;
   box-shadow: 10px 10px 5px grey;
   /* border-radius: 30px; /* runde hjørner */
-  position: absolute; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
-   
+  position: absolute; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
 }
 
 .form,
@@ -151,14 +146,13 @@ h2 {
 .form-items .input{ /* styling af alt hvad der er inden for boxen. */
   width: 100%;
   margin-bottom: 5px;
-  padding: 5px 16px;
+  padding: 15px 16px;
   box-sizing: border-box;/*Holder "skrivefelterne" inde for boxens borders */
   background: #ebeef1; /* meget lys grå: felterne */
   border: 0;
   /*Gør måske brug af: "border-radius: 30px;" = hjørnerne bliver runde */
   color: #000000;
-  font-size: 14px;
-	
+  font-size: 14px;	
 }
 
 .form-items .input.message{
