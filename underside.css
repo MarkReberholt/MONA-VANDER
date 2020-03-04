@@ -26,12 +26,19 @@ body{
   margin-left: 18%; /* banneret starter fra menubaren + responsiv */
   margin-top: 0;
   margin-bottom: 100px;
+  position: relative;
 }
 
 .headline_produkt {
+  color: #bed1e4;
+  background-color:  rgba(115, 53, 93, 0.5);
+  font-size: 70px;
   text-align: center;
-  font-size: 30px;
-  margin-left: 20%;
+  position: absolute;
+  margin-top: -250px;
+  margin-left:18%;
+  padding: 20px;
+  width: 1800px;
 }
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
