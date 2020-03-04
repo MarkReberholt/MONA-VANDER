@@ -124,64 +124,63 @@ body{
 /*_______________________MENUENS OPBYGNING______________________*/
 
 .wrapper{
-  display: flex;
-  position: relative;
+ display: flex;
+ position: relative;
 }
 
 .wrapper .sidebar{
-  height: 100%;
-  background: #4b4276;
-  position: fixed;
-  width: 18%;
+ height: 100%;
+ background: white;
+ position: fixed;
+ width: 18%;
 }
 
 .wrapper .sidebar h2{
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 30px;
+ text-transform: uppercase;
+ text-align: center;
+ margin-bottom: 30px;
 }
 
 .wrapper .sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
+ padding: 15px;
+ border-bottom: 1px;
+ border-bottom: 1px;
+ border-top: 1px;
 }
 
 .wrapper .sidebar ul li a{
-  color: #bdb8d7;
-  display: block;
-  width: 80%;
+ color:black;
+ display: block;
+ width: 80%;
+
 }
 
-
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+ background-color:#bed1e4;
 }
 
 .wrapper .sidebar ul li:hover a{
-  color: #fff;
+ color: #fff;
+ text-decoration: underline;
 }
 
-
 .wrapper .sidebar .social_media{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ display: flex;
 }
 
 .wrapper .sidebar .social_media a{
-  display: block;
-  width: 40px;
-  background: #594f8d;
-  height: 40px;
-  line-height: 45px;
-  text-align: center;
-  margin: 0 5px;
-  color: #bdb8d7;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+ display: block;
+ width: 40px;
+ background: #bed1e4;
+ height: 40px;
+ line-height: 45px;
+ text-align: center;
+ margin: 0 5px;
+ color: #fff;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
 }
