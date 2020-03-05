@@ -57,11 +57,44 @@ body{
 
 .monaforanbutik {
 	margin-top: -60px;
-	width: 600px;
+	width: 610px;
 	position:absolute;
 	margin-left: 20%;
 	border: medium #BAC9E7;
 	padding: 90px;
+}
+
+.vandertekst {
+	width: 350px;
+	line-height: 1.8;
+	padding: 20px;
+	background: rgba(190, 209, 228, 0.7) ;
+	margin: 20px; 
+  	position: relative;
+  	left: 800px;
+  	margin-top: 30px;
+  	font-size: 15px;
+}
+
+.monapakker {
+	margin-top: -10px;
+	width: 610px;
+	position:absolute;
+	margin-left: 20%;
+	border: medium #BAC9E7;
+	padding: 90px;
+}
+
+.praktisk {
+	width: 350px;
+	line-height: 1.8;
+	padding: 20px;
+	background: rgba(190, 209, 228, 0.7) ;
+	margin: 20px; 
+  	position: relative;
+  	left: 800px;
+  	margin-top: 100px;
+  	font-size: 15px;
 }
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
