@@ -152,10 +152,10 @@ h1 {
   background: #BAC9E7;
   padding: 50px;
   margin-left: 60%;
-  margin-top: -570px;
+  margin-top: -700px;
   box-shadow: 10px 10px 5px #7996D1;
   /* border-radius: 30px; /* runde hjørner */
-  position: absolute; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
+  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
 }
 
 .form,
@@ -207,14 +207,20 @@ h1 {
   padding-left: 20px;
   margin-left: 790px;
   margin-right: 100px;
-  position: absolute;
+  position:absolute;
 }
 .contactbillede{
 	margin-top: 0px;
-	width: 55%;
-  height: 700px;
+	width: 600px;
+    height: 650px;
+	position:relative;
+	margin-left: 20%;
+	border: medium #BAC9E7;
+	padding: 90px;
+	
 }
 p{
   width: 400px;
   font-size: 15px;
+  margin-top: -150px;
 }
