@@ -148,13 +148,12 @@ h1 {
 }
 .contact-me{ /* Boxens opbygning */
   width: 450px;
+  height: 560px;
   font-size: 10px;
-  background: #BAC9E7;
   padding: 50px;
   margin-left: 60%;
-  margin-top: -700px;
-  box-shadow: 10px 10px 5px #7996D1;
-  /* border-radius: 30px; /* runde hjørner */
+  margin-top: 30px;
+  background-color: rgba(190, 209, 228, 0.7) ;
   position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
 }
 
@@ -190,14 +189,15 @@ h1 {
   background: #bed1e4;
   margin-left: 16%; /* placering af knap - for at få den fra venstre, ind til midten */
   padding: 15px;
-  color: #fff; /* farven på teksten i knappen */
+  color: black; /* farven på teksten i knappen */
   border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
   box-shadow: 10px 10px 5px #7996D1;
   cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
 }
 
 .btn:hover{
-  color: #73355d;
+  background-color: #FFE5F3;
+  color:white; 
 }
 
 .textbox{ /* Boxens opbygning */
@@ -210,10 +210,9 @@ h1 {
   position:absolute;
 }
 .contactbillede{
-	margin-top: 0px;
+	margin-top: -60px;
 	width: 600px;
-    height: 650px;
-	position:relative;
+	position:absolute;
 	margin-left: 20%;
 	border: medium #BAC9E7;
 	padding: 90px;
