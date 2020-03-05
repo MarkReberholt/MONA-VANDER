@@ -166,9 +166,16 @@ body{
 
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.tekst {font-size: 11px}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  } 
+  .prikker {
+    margin-left: 500px;
+  }
+  
+
+@media screen and (max-width: 600px) {
+body {
+  background-color: olive;
 }
-
-
-
