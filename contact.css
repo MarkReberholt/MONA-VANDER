@@ -64,7 +64,6 @@ body{
   .wrapper .sidebar ul li{
     padding: 15px;
     border-bottom: 1px;
-    border-bottom: 1px;
     border-top: 1px;
   }
   
@@ -104,38 +103,7 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-.tekst1 {
-  background-color:#FFFFFF;
-  width: 200px;
-  border: 1px solid ;
-  padding: 20px;
-  margin: 20px; 
-  position: relative;
-  left: 150px;
-  margin-top: 100px;
-  align-items: center
-}
-.tekst2 {
-  background-color:#FFFFFF;
-  width: 200px;
-  border: 1px solid ;
-  padding: 20px;
-  margin: 20px; 
-  position: relative;
-  left: 150px;
-  margin-top: 100px;
-}
-.tekst3 {
-  background-color:#FFFFFF;
-  width: 200px;
-  border: 1px solid ;
-  padding: 20px;
-  margin: 20px; 
-  position: relative;
-  left: 150px;
-  margin-top: 100px;
-  margin-right: 10%;
-}
+
 .oeverstebillede {
 	margin-top: 0px;
 	width: 100%;
@@ -218,6 +186,44 @@ h1 {
 	padding: 90px;
 	
 }
+
+.map{
+	width:430px;
+	margin-left:26%;
+	margin-top:-400px;
+	position: absolute;
+}
+.adresse {
+  margin: 20px; 
+  position: relative;
+  left: 970px;
+  margin-top: 300px;
+  font-size: 30px;
+}
+
+.butik {
+  width:430px;
+  margin-left:26%;
+  margin-top:-350px;
+  position: absolute;
+}
+
+.open {
+  margin: 20px; 
+  position: relative;
+  left: 970px;
+  margin-top: 300px;
+  font-size: 20px;
+}
+
+.info {
+  margin: 20px; 
+  position: relative;
+  left: 970px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
 p{
   width: 400px;
   font-size: 15px;
