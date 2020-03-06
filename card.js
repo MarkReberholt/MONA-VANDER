@@ -9,13 +9,13 @@ var products = {
   2 : {
     name : "Brun kop",
     desc : "Unsatiable invitation its possession nor off.",
-    img : "img/ansigtskrus/strikkeskol2.jpg",
+    img : "img/ansigtskrus/krusbrun2.jpg",
     price : 500
   },
   3 : {
     name : "Hvidt krus",
     desc : "All difficulty estimating unreserved increasing the solicitude.",
-    img : "img/ansigtskrus/strikkeskol2.jpg",
+    img : "img/ansigtskrus/handshvidcloseup2.jpg",
     price : 500
   },
   4 : {

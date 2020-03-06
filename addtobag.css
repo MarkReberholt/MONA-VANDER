@@ -5,22 +5,27 @@ html, body {
   font-family: arial, sans-serif;
 }
 
-#cart-products { /* Produkt card */
+.card { /* Produkt card (rettet fra: #cart-products) = listen rykkede fra midten og ud til navigationen */
 margin-left: 18%;
-width: 100%
 }
 
 #cart-list { /* "tilføjet til kurv" - boks */
-width: 30%
+width: 50%
 }
 
 #cart-products, #cart-list {
-padding: 20px
+padding: 40px;
 }
 
 /*_________________[PRODUCTS]_____________________ */
-#cart-products { /* hele produkt kortet */
-
+.card { /* hele produkt kortet */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+position: relative;
 }
 
 .flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
@@ -65,7 +70,14 @@ position: relative;
   border: none;
   width: 100%;
   padding: 10px;
+  font-style:normal;
+  color: #fff;
+  font-size: 15px;
 
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
 
 /*______________[CART LIST]_______________*/
