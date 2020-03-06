@@ -41,6 +41,123 @@ body{
   padding: 20px;
   width: 1180px;
 }
+/*_________________________Kontakt mona side______________*/
+.title {
+  margin-top: 0px;
+	width: 100%;
+	height: 200px;
+}
+.contact-me{ /* Boxens opbygning */
+  width: 30%;
+  height: 569px;
+  font-size: 10px;
+  padding: 50px;
+  margin-left: 60%;
+  margin-top: 1.5%;
+  background-color: rgba(190, 209, 228, 0.7) ;
+  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{ /* styling af alt hvad der er inden for boxen. */
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  box-sizing: border-box;/*Holder "skrivefelterne" inde for boxens borders */
+  background: #ebeef1; /* meget lys grå: felterne */
+  border: 0;
+  /*Gør måske brug af: "border-radius: 30px;" = hjørnerne bliver runde */
+  color: #000000;
+  font-size: 14px;	
+}
+
+.form-items .input.message{
+  height: 100px;
+  /* border-radius: 15px; */
+  margin-bottom: 20px;
+  padding: 15px;
+  resize: none; /* før kunne man trække ud i "Besked"feltet - denne kode stopper scale-funktionen = none */
+}
+
+
+.btn{ /* "button" */
+  width: 60%; /* længden på knappen */
+  text-align: center;
+  background: #bed1e4;
+  margin-left: 16%; /* placering af knap - for at få den fra venstre, ind til midten */
+  padding: 15px;
+  color: black; /* farven på teksten i knappen */
+  border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
+  box-shadow: 10px 10px 5px #7996D1;
+  cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
+}
+
+.btn:hover{
+  background-color: #FFE5F3;
+  color:white; 
+}
+
+.textbox{ /* Boxens opbygning */
+  border: solid #73355d;
+  max-width: 400px;
+  max-height: 50px;
+  padding-left: 20px;
+  margin-left: 790px;
+  margin-right: 100px;
+  position:absolute;
+}
+.contactbillede{
+	margin-top: -4.5%;
+	width: 42%;
+	position:absolute;
+	margin-left: 20%;
+	border: medium #BAC9E7;
+	padding: 90px;
+}
+
+.map{
+	width:29%;
+	margin-left:26%;
+	margin-top:-25%;
+	position: absolute;
+}
+.adresse {
+  margin-top: 20%; 
+  position: relative;
+  left: 60%;
+  font-size: 30px;
+}
+
+.butik {
+  width:30%;
+  margin-left:26%;
+  margin-top:-20%;
+  position: absolute;
+}
+
+.open {
+  position: relative;
+  left: 60%;
+  margin-top: 20%;
+  font-size: 20px;
+}
+
+.info {
+  position: relative;
+  left: 60%;
+  font-size: 20px;
+}
+
+.undertitle{
+  width: 400px;
+  font-size: 15px;
+  margin-top: -150px;
+}
+
 
 /*_______________________Om Mona Side______________*/
 .ommona {
@@ -157,7 +274,6 @@ body{
 
 .wrapper .sidebar ul li{
  padding: 15px;
- border-bottom: 1px;
  border-bottom: 1px;
  border-top: 1px;
 }
