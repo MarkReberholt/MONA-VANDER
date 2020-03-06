@@ -265,22 +265,32 @@ body{
  padding: 15px;
  border-bottom: 1px;
  border-top: 1px;
+ text-align: center;
 }
 
 .wrapper .sidebar ul li a{
  color:black;
- display: block;
- width: 80%;
-
+ display: inline-block;
+ text-decoration: none;
+ position: relative;
 }
 
-.wrapper .sidebar ul li:hover{
- background-color:#bed1e4;
+.wrapper .sidebar ul li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background-color: #bed1e4; 
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
-.wrapper .sidebar ul li:hover a{
- color: #fff;
- text-decoration: underline;
+.wrapper .sidebar ul li a:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 .wrapper .sidebar .social_media{
