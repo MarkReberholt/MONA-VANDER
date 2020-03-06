@@ -339,7 +339,7 @@ body{
 }
 #peekaboo{
 	position: fixed;
-	bottom: 0px;
+	bottom: 100px;
 	right: -150px;
 	background:#EC20EC;
 	padding: 25px;
