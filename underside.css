@@ -21,7 +21,7 @@ body{
 }
 
 .banner { /* webshop: banner */
-  width: 90%;
+  width: 82%;
   height: auto;
   margin-left: 18%; /* banneret starter fra menubaren + responsiv */
   margin-top: 0;
@@ -39,7 +39,7 @@ body{
   margin-top: -250px;
   margin-left:18%;
   padding: 20px;
-  width: 90%;
+  width: 82%;
 }
 /*_________________________Kontakt mona side______________*/
 .title {
@@ -107,7 +107,6 @@ body{
   max-height: 40%;
   padding-left: 20px;
   margin-left: 65%;
-  margin-right: 100%;
   position:absolute;
 }
 .contactbillede{
@@ -126,7 +125,7 @@ body{
 .adresse {
   margin-top: 20%; 
   position: relative;
-  left: 60%;
+  margin-left: 60%;
   font-size: 30px;
 }
 
@@ -139,14 +138,14 @@ body{
 
 .open {
   position: relative;
-  left: 60%;
+  margin-left: 60%;
   margin-top: 20%;
   font-size: 20px;
 }
 
 .info {
   position: relative;
-  left: 60%;
+  margin-left: 60%;
   font-size: 20px;
 }
 
