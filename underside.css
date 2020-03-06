@@ -346,11 +346,12 @@ position: relative;
 }
 .peekaboo{
 	position: fixed;
-	bottom: 100px;
-	right: -352px;
+	bottom: 0px;
+	right: -289px;
 	background:#EC20EC;
 	padding: 25px;
 	width: 300px;
 	height:200px;
 	font-size: 40px;
+	-webkit-
 }
