@@ -20,11 +20,18 @@ padding: 20px
 
 /*_________________[PRODUCTS]_____________________ */
 #cart-products { /* hele produkt kortet */
+
+}
+
+.flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
   flex-wrap: wrap;
+  margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
+position: relative;
 }
+
 .p-item { /* product card: hele firkanten */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -54,7 +61,7 @@ padding: 20px
   margin-bottom: 10px;
 }
 .p-add { /* "tilføj til kurv" knap: Produkt card */
-  background: lightblue;
+  background: #000;
   border: none;
   width: 100%;
   padding: 10px;

@@ -208,7 +208,7 @@ var cart = {
   checkout : function(){
   // checkout() : checkout the cart
 
-    alert("Vil du tilføje flere varer i din kurv? Klik A");
+    alert("Er du færdig med at handle og klar til at betale? Klik OK.");
     // Forward to confirmation page or directly add name, tel, email fields in the cart list.
     // Send cart.data to the server and do further processing - email or save to database.
   }
