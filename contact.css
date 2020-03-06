@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 *{
@@ -11,7 +10,8 @@
 }
 
 body{
-   background-color:white ;
+   background-color: #f3f5f9;
+   width:;
 }
 
 /* logo billede*/
@@ -21,13 +21,14 @@ body{
   margin: 30px 0 30px 75px;
 }
 
-.banner { /* webshop: banner - portræt */
+.banner { /* webshop: banner */
   width: 1180px;
   height: auto;
   margin-left: 18%; /* banneret starter fra menubaren + responsiv */
   margin-top: 0;
   margin-bottom: 100px;
   position: relative;
+  
 }
 
 .headline_produkt {
@@ -104,11 +105,7 @@ body{
     border-top-right-radius: 5px;
   }
 
-.oeverstebillede {
-	margin-top: 0px;
-	width: 100%;
-	height: 200px;
-}
+
 h1 {
   margin-top: 0px;
 	width: 100%;

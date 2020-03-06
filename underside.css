@@ -20,7 +20,7 @@ body{
   margin: 30px 0 30px 75px;
 }
 
-.banner { /* webshop: banner - portræt */
+.banner { /* webshop: banner */
   width: 1180px;
   height: auto;
   margin-left: 18%; /* banneret starter fra menubaren + responsiv */
@@ -42,6 +42,7 @@ body{
   width: 1180px;
 }
 
+/*_______________________Om Mona Side______________*/
 .ommona {
   font-family: 'Poiret One', cursive;
   color:black;
@@ -57,86 +58,36 @@ body{
 
 .monaforanbutik {
 	margin-top: -60px;
-	width: 610px;
+	width: 600px;
 	position:absolute;
 	margin-left: 20%;
 	border: medium #BAC9E7;
 	padding: 90px;
-}
-
-.vandertekst {
-	width: 350px;
-	line-height: 1.8;
-	padding: 20px;
-	background: rgba(190, 209, 228, 0.7) ;
-	margin: 20px; 
-  	position: relative;
-  	left: 800px;
-  	margin-top: 30px;
-  	font-size: 15px;
-}
-
-.monapakker {
-	margin-top: -10px;
-	width: 610px;
-	position:absolute;
-	margin-left: 20%;
-	border: medium #BAC9E7;
-	padding: 90px;
-}
-
-.praktisk {
-	width: 350px;
-	line-height: 1.8;
-	padding: 20px;
-	background: rgba(190, 209, 228, 0.7) ;
-	margin: 20px; 
-  	position: relative;
-  	left: 800px;
-  	margin-top: 100px;
-  	font-size: 15px;
 }
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
   flex-wrap: wrap;
-  margin-left: 25%;
-  margin-top: 5%;
+  margin-left: 30%;
   margin-bottom: 15%;
 }
 
-.img_product_ansigtskrus{
-  border: solid #fff;
+.img_product{ /* de 4 produktsider på webshoppen */
+  border: solid #BAC9E7;
   border-radius: 200px;
+  padding: 2%;
   margin: 1%;
   max-width: 100%;
-  max-height: 160px;
+  max-height: 200px;
 }
 
-.img_product_kokkenet{
-  border: solid #fff;
-  border-radius: 200px;
-  margin: 1%;
-  max-width: 100%;
-  max-height: 160px;
+.produkt_txt {
+  margin-left: 10%;
+  font-family: 'Poiret One';
+  color:black;
+  font-size: 20px;
+  text-align: center;
 }
-
-.img_product_skulpturer{
-  border: solid #fff;
-  border-radius: 200px;
-  margin: 1%;
-  max-width: 100%;
-  max-height: 160px;
-}
-
-.img_product_vaser{
-  border: solid #fff;
-  border-radius: 200px;
-  margin: 1%;
-  max-width: 100%;
-  max-height: 160px;
-}
-
 
 
 /*_______________________PRODUCT CARDS______________________*/
