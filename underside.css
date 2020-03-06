@@ -175,6 +175,7 @@ body{
   padding: 25px;
   line-height: 25px;
   background-color:rgba(190, 209, 228, 0.7) ;
+  position:relative;
 }
 
 
