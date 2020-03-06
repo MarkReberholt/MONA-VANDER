@@ -1,5 +1,3 @@
-console.log("emma"); 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
