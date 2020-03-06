@@ -6,7 +6,21 @@
 	<link rel="stylesheet" href="underside.css">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One|Spartan&display=swap" rel="stylesheet">
-   
+	
+<script>
+	function yScrollHandler (){
+		var win=document.getElementById("peekaboo");
+		if((window.pageYOffset+window.innerHeight)>=document.body.offsetHeight){
+			win.style.transition = "right 0.7s ease-in-out 0s";
+			win.style.transition= "0px";
+	} else{
+		win.style.transition = "right 0.7s ease-in-out 0s";
+		win.style.right="-452px";
+	}
+}
+window.onscroll= yScrollHandler;
+</script>
+	
 </head>
 <body>
 		<div id="canvas_container">
@@ -92,6 +106,6 @@
 				Facebook  - Keramiker - Mona Vander <br>
 		</div>
 	<img src="img/butik.png" class="butik" alt="billede af Mona Vanders butik på vindegade 101 i odense">
- <div class= "peekaboo" >Peekaboo!</div>
+ <div id= "peekaboo" >Peekaboo!</div>
 	</body>
 </html> 
