@@ -159,14 +159,23 @@ body{
 /*_______________________Om Mona Side______________*/
 
 
+#canvas_container{ 
+  width:100%; 
+  margin:0;
+  position: absolute;
+}
+#my_canvas{ 
+ display: block;
+}
 
 .vandertekst {
-	margin-left:60%; 
-	margin-top:5%;
-	width:32%;
-	padding: 25px;
-	line-height: 25px;
-	background-color:rgba(190, 209, 228, 0.7) ;
+  margin-left:60%; 
+  margin-top:5%;
+  width:32%;
+  padding: 25px;
+  line-height: 25px;
+  background-color:rgba(190, 209, 228, 0.7) ;
+  position:relative;
 }
 
 
@@ -185,6 +194,7 @@ body{
   margin: 1%;
   max-width: 100%;
   max-height: 200px;
+	position: relative;
 }
 
 .produkt_txt {
@@ -193,6 +203,7 @@ body{
   color:black;
   font-size: 20px;
   text-align: center;
+	position: relative;
 }
 
 
@@ -204,6 +215,7 @@ body{
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
+position: relative;
 }
 
 .card { /* pruduct card */
@@ -213,11 +225,13 @@ body{
   margin-bottom: 5%;
   text-align: center;
   font-family: arial;
+position: relative;
 }
 
 .price {
   color: grey;
   font-size: 22px;
+	position: relative;
 }
 
 .card button {
@@ -230,6 +244,7 @@ body{
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+	position: relative;
 }
 
 .card button:hover {
@@ -239,6 +254,7 @@ body{
 .produkt_1 { /*produkt 1 - billeder */
   width: 300px;
   height: 100%;
+	position: relative;
 }
 
 /*_______________________MENUENS OPBYGNING______________________*/
@@ -327,4 +343,15 @@ body{
   width: 200px;
   height: 200px;
   align-self: center;
+}
+.peekaboo{
+	position: fixed;
+	bottom: 0px;
+	right: -289px;
+	background:#EC20EC;
+	padding: 25px;
+	width: 300px;
+	height:200px;
+	font-size: 40px;
+	-webkit-
 }

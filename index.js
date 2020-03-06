@@ -1,4 +1,3 @@
-console.log("emma");
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -32,3 +31,6 @@ for (i = 0; i < text.length; i++) {
   text[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
