@@ -313,3 +313,18 @@ body{
  border-top-left-radius: 5px;
  border-top-right-radius: 5px;
 }
+
+/* _____________ADD TO BAG___________________ */
+
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
