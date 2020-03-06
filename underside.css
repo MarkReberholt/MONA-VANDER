@@ -159,14 +159,22 @@ body{
 /*_______________________Om Mona Side______________*/
 
 
+#canvas_container{ 
+  width:100%; 
+  margin:0;
+  position: absolute;
+}
+#my_canvas{ 
+ display: block;
+}
 
 .vandertekst {
-	margin-left:60%; 
-	margin-top:5%;
-	width:32%;
-	padding: 25px;
-	line-height: 25px;
-	background-color:rgba(190, 209, 228, 0.7) ;
+  margin-left:60%; 
+  margin-top:5%;
+  width:32%;
+  padding: 25px;
+  line-height: 25px;
+  background-color:rgba(190, 209, 228, 0.7) ;
 }
 
 
