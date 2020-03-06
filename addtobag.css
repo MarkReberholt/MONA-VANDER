@@ -1,0 +1,91 @@
+/* [PAGE & WRAPPER] */
+html, body {
+  margin : 0;
+  padding : 0;
+  font-family: arial, sans-serif;
+}
+
+#cart-products { /* Produkt card */
+margin-left: 18%;
+width: 100%
+}
+
+#cart-list { /* "tilføjet til kurv" - boks */
+width: 30%
+}
+
+#cart-products, #cart-list {
+padding: 20px
+}
+
+/*_________________[PRODUCTS]_____________________ */
+#cart-products { /* hele produkt kortet */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.p-item { /* product card: hele firkanten */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+}
+.p-img { /* produkt billeder */
+  width: 300px;
+  height: 100%;
+}
+.p-name { /* produkt-navn: Produkt card - fx "strikkeskål" */
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p-price { /* Pris: Produkt card */
+  color: grey;
+  margin-bottom: 10px;
+}
+.p-desc { /* beskrivelse af produkt: Produkt card */
+  color: grey;
+  font-size: 0.9em;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.p-add { /* "tilføj til kurv" knap: Produkt card */
+  background: lightblue;
+  border: none;
+  width: 100%;
+  padding: 10px;
+
+}
+
+/*______________[CART LIST]_______________*/
+#cart-list div.c-item:nth-child(odd) {
+  background: lightgrey; /* produkter tilføjet til kurven */
+}
+.c-item {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.c-qty, .c-name { /* text i "items added-boksen" */
+  display: inline-block;
+  color: #000;
+}
+.c-qty { /* hvid "mængde/antal-boks" */
+  margin-right: 10px;
+  width: 30px;
+  height: 20px;
+}
+.c-empty, .c-checkout { /* "tøm kurv" og "gå til betaling" knapperne */
+  border: 1px;
+  width: 100%;
+  padding: 40px;
+}
+.c-empty { /* "tøm kurv" knap */
+  background: #fff;
+}
+.c-checkout { /* gå til betaling knap */
+  background: #d6ffcf;
+}
