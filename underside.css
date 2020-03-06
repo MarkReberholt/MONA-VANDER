@@ -159,12 +159,12 @@ body{
 /*_______________________Om Mona Side______________*/
 
 
-#canvas_container{ 
+.canvas_container{ 
   width:100%; 
   margin:0;
   position: absolute;
 }
-#my_canvas{ 
+.my_canvas{ 
  display: block;
 }
 
