@@ -344,10 +344,10 @@ position: relative;
   height: 200px;
   align-self: center;
 }
-#peekaboo{
+.peekaboo{
 	position: fixed;
 	bottom: 100px;
-	right: -150px;
+	right: -352px;
 	background:#EC20EC;
 	padding: 25px;
 	width: 300px;
