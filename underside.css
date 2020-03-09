@@ -358,5 +358,6 @@ position: relative;
     padding:25px;
     width:300px;
     height:200px;
-    font-size:48px;
+    font-size:22px;
+	font-family: quicksand;
 }
