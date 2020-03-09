@@ -18,15 +18,16 @@ padding: 40px;
 }
 
 /*_________________[PRODUCTS]_____________________ */
-.card { /* hele produkt kortet */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+/*.card { /* hele produkt kortet */
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   margin-bottom: 5%;
   text-align: center;
   font-family: arial;
 position: relative;
-}
+} */
 
 .flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
@@ -34,7 +35,7 @@ position: relative;
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
-position: relative;
+  position: relative;
 }
 
 .p-item { /* product card: hele firkanten */
@@ -56,13 +57,16 @@ position: relative;
   margin-bottom: 10px;
 }
 .p-price { /* Pris: Produkt card */
-  color: grey;
+  color: darkred;
   margin-bottom: 10px;
+  font-size: 22px;
 }
 .p-desc { /* beskrivelse af produkt: Produkt card */
-  color: grey;
-  font-size: 0.9em;
+  color: #000;
+  font-size: 18px;
   margin: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
   margin-bottom: 10px;
 }
 .p-add { /* "tilføj til kurv" knap: Produkt card */
@@ -73,38 +77,52 @@ position: relative;
   font-style:normal;
   color: #fff;
   font-size: 15px;
-
 }
 
-.card button:hover {
-  opacity: 0.7;
+
+/*______________[CART LIST - KURV]_______________*/
+#cart-list {
+  position: fixed;
 }
 
-/*______________[CART LIST]_______________*/
 #cart-list div.c-item:nth-child(odd) {
   background: lightgrey; /* produkter tilføjet til kurven */
 }
-.c-item {
+
+.c-item { /*varer er tilføjet til kurv - gråt felt: "strikkeskål" */
   padding: 10px;
   margin-bottom: 10px;
+  width: 28%
 }
+
 .c-qty, .c-name { /* text i "items added-boksen" */
   display: inline-block;
   color: #000;
 }
+
 .c-qty { /* hvid "mængde/antal-boks" */
   margin-right: 10px;
   width: 30px;
-  height: 20px;
+  height: 25px;
 }
+
 .c-empty, .c-checkout { /* "tøm kurv" og "gå til betaling" knapperne */
-  border: 1px;
-  width: 100%;
-  padding: 40px;
+  height: 5px;
+  padding: 25px;
 }
+
 .c-empty { /* "tøm kurv" knap */
-  background: #fff;
+  background: #f3f5f9;
+  font-size: 15px;
+  color: #000;
+  width: 180px;
 }
+
 .c-checkout { /* gå til betaling knap */
-  background: #d6ffcf;
+  background: #d6ffc6;
+  font-size: 15px;
+  position: fixed;
+  width: 180px;
+  margin-left: -180px; /* alternativ løsning for at få knapperne under hinanden: virker kun i fuld skærm = ikke responsiv */
+  margin-top: 55px;
 }

@@ -14,12 +14,26 @@ body{
    background-color:white ;
 }
 
+@media only screen and (max-width: 1100px) {
+    .wrapper .sidebar ul li a{
+     font-size: 8pt;
+    }
+}
+
+ul {
+  padding-top: 50px;
+}
+
 /* logo billede*/
 .logo {
+  display: block;
   width: 100px;
-  height: 100px;
-  margin: 30px 0 30px 75px;
+  height: auto;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .banner { /* webshop: banner - portræt */
   width: 1180px;
@@ -47,42 +61,42 @@ body{
     display: flex;
     position: relative;
   }
-  
+
   .wrapper .sidebar{
     height: 100%;
     background: white;
     position: fixed;
     width: 18%;
   }
-  
+
   .wrapper .sidebar h2{
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
   }
-  
+
   .wrapper .sidebar ul li{
     padding: 15px;
     border-bottom: 1px;
     border-top: 1px;
   }
-  
+
   .wrapper .sidebar ul li a{
     color:black;
     display: block;
     width: 80%;
-  
+
   }
-  
+
   .wrapper .sidebar ul li:hover{
     background-color:#bed1e4;
   }
-  
+
   .wrapper .sidebar ul li:hover a{
     color: #fff;
     text-decoration: underline;
   }
-  
+
   .wrapper .sidebar .social_media{
     position: absolute;
     bottom: 0;
@@ -90,7 +104,7 @@ body{
     transform: translateX(-50%);
     display: flex;
   }
-  
+
   .wrapper .sidebar .social_media a{
     display: block;
     width: 40px;
@@ -122,7 +136,7 @@ h1 {
   margin-left: 60%;
   margin-top: 30px;
   background-color: rgba(190, 209, 228, 0.7) ;
-  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
+  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
 }
 
 .form,
@@ -139,7 +153,7 @@ h1 {
   border: 0;
   /*Gør måske brug af: "border-radius: 30px;" = hjørnerne bliver runde */
   color: #000000;
-  font-size: 14px;	
+  font-size: 14px;
 }
 
 .form-items .input.message{
@@ -165,7 +179,7 @@ h1 {
 
 .btn:hover{
   background-color: #FFE5F3;
-  color:white; 
+  color:white;
 }
 
 .textbox{ /* Boxens opbygning */
@@ -184,7 +198,7 @@ h1 {
 	margin-left: 20%;
 	border: medium #BAC9E7;
 	padding: 90px;
-	
+
 }
 
 .map{
@@ -194,7 +208,7 @@ h1 {
 	position: absolute;
 }
 .adresse {
-  margin: 20px; 
+  margin: 20px;
   position: relative;
   left: 970px;
   margin-top: 300px;
@@ -209,7 +223,7 @@ h1 {
 }
 
 .open {
-  margin: 20px; 
+  margin: 20px;
   position: relative;
   left: 970px;
   margin-top: 300px;
@@ -217,7 +231,7 @@ h1 {
 }
 
 .info {
-  margin: 20px; 
+  margin: 20px;
   position: relative;
   left: 970px;
   margin-top: 0px;

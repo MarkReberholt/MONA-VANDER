@@ -13,12 +13,26 @@ body{
    background-color: #f3f5f9;
 }
 
+@media only screen and (max-width: 1000px) {
+    .wrapper .sidebar ul li a{
+     font-size: 8pt;
+    }
+}
+
+ul {
+  padding-top: 50px;
+}
+
 /* logo billede*/
 .logo {
+  display: block;
   width: 100px;
-  height: 100px;
-  margin: 30px 0 30px 75px;
+  height: auto;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .banner { /* webshop: banner */
   width: 82%;
@@ -55,7 +69,7 @@ body{
   margin-left: 60%;
   margin-top: 1.5%;
   background-color: rgba(190, 209, 228, 0.7) ;
-  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
+  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
 }
 
 .form,
@@ -72,7 +86,7 @@ body{
   border: 0;
   /*Gør måske brug af: "border-radius: 30px;" = hjørnerne bliver runde */
   color: #000000;
-  font-size: 14px;	
+  font-size: 14px;
 }
 
 .form-items .input.message{
@@ -98,7 +112,7 @@ body{
 
 .btn:hover{
   background-color: #FFE5F3;
-  color:white; 
+  color:white;
 }
 
 .textbox{ /* Boxens opbygning */
@@ -110,29 +124,29 @@ body{
   position:absolute;
 }
 .contactbillede{
-	margin-top: 5%;
+	margin-top: 33%;
 	width: 30%;
 	position:absolute;
-	margin-left: 25%;
+	margin-left: -75%;
 }
 
 .map{
 	width:29%;
 	margin-left:26%;
-	margin-top:-25%;
+	margin-top:-20%;
 	position: absolute;
 }
 .adresse {
-  margin-top: 20%; 
+  margin-top: 20%;
   position: relative;
   margin-left: 60%;
   font-size: 30px;
 }
 
 .butik {
-  width:30%;
+  width:29%;
   margin-left:26%;
-  margin-top:-20%;
+  margin-top:-18%;
   position: absolute;
 }
 
@@ -159,17 +173,17 @@ body{
 /*_______________________Om Mona Side______________*/
 
 
-#canvas_container{ 
-  width:100%; 
+#canvas_container{
+  width:100%;
   margin:0;
   position: absolute;
 }
-#my_canvas{ 
+#my_canvas{
  display: block;
 }
 
 .vandertekst {
-  margin-left:60%; 
+  margin-left:60%;
   margin-top:5%;
   width:32%;
   padding: 25px;
@@ -178,7 +192,14 @@ body{
   position:relative;
 }
 
+.video {
+  margin-top: 30%;
+  margin-left: 25%;
+  width: 70%;
+  position: absolute;;
+}
 
+/*_______________________WEBSHOP: PRODUKTER: 4 SLAGS______________*/
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
@@ -215,7 +236,7 @@ body{
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
-position: relative;
+  position: relative;
 }
 
 .card { /* pruduct card */
@@ -225,11 +246,11 @@ position: relative;
   margin-bottom: 5%;
   text-align: center;
   font-family: arial;
-position: relative;
+  position: relative;
 }
 
 .price {
-  color: grey;
+  color: darkred;
   font-size: 22px;
 	position: relative;
 }
@@ -257,6 +278,11 @@ position: relative;
 	position: relative;
 }
 
+.card p {
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
 /*_______________________MENUENS OPBYGNING______________________*/
 
 .wrapper{
@@ -277,6 +303,10 @@ position: relative;
  margin-bottom: 30px;
 }
 
+ul {
+  padding-top: 50px;
+}
+
 .wrapper .sidebar ul li{
  padding: 15px;
  border-bottom: 1px;
@@ -289,6 +319,7 @@ position: relative;
  display: inline-block;
  text-decoration: none;
  position: relative;
+ font-size: 14pt;
 }
 
 .wrapper .sidebar ul li a:after {
@@ -299,14 +330,14 @@ position: relative;
   height: 2px;
   left: 50%;
   position: absolute;
-  background-color: #bed1e4; 
+  background-color: #bed1e4;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
-.wrapper .sidebar ul li a:hover:after { 
-  width: 100%; 
-  left: 0; 
+.wrapper .sidebar ul li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .wrapper .sidebar .social_media{
@@ -330,9 +361,8 @@ position: relative;
  border-top-right-radius: 5px;
 }
 
-/* _____________ADD TO BAG___________________ */
-
-
+/* _____________ADD TO BAG: (virker ikke)vv_____________ */
+/*
 .show-cart li {
   display: flex;
 }
@@ -343,15 +373,16 @@ position: relative;
   width: 200px;
   height: 200px;
   align-self: center;
-}
-.peekaboo{
-	position: fixed;
-	bottom: 0px;
-	right: -289px;
-	background:#EC20EC;
-	padding: 25px;
-	width: 300px;
-	height:200px;
-	font-size: 40px;
-	-webkit-
-}
+} */
+
+/*_____________PEEKABOO_____________*/
+
+#peekaboo{
+    position:fixed;
+    bottom:0px;
+    right:-32px;
+    background: #C4E6FF;
+    padding:25px;
+    width:300px;
+    height:200px;
+    font-size:48px;

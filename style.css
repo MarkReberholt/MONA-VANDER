@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -13,13 +16,24 @@ body{
    background-color: #f3f5f9;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+    .wrapper .sidebar ul li a{
+     font-size: 8pt;
+    }
+
+}
 
 /* logo billede*/
 .logo {
+  display: block;
   width: 100px;
-  height: 100px;
-  margin: 30px 0 30px 75px;
+  height: auto;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .wrapper{
  display: flex;
  position: relative;
@@ -38,6 +52,10 @@ body{
  margin-bottom: 30px;
 }
 
+ul {
+  padding-top: 50px;
+}
+
 .wrapper .sidebar ul li{
  padding: 15px;
  border-bottom: 1px;
@@ -50,6 +68,7 @@ body{
  display: inline-block;
  text-decoration: none;
  position: relative;
+ font-size: 14pt;
 }
 
 .wrapper .sidebar ul li a:after {
@@ -60,14 +79,14 @@ body{
   height: 2px;
   left: 50%;
   position: absolute;
-  background-color: #bed1e4; 
+  background-color: #bed1e4;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
-.wrapper .sidebar ul li a:hover:after { 
-  width: 100%; 
-  left: 0; 
+.wrapper .sidebar ul li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .wrapper .sidebar .social_media{
@@ -91,38 +110,36 @@ body{
  border-top-right-radius: 5px;
 }
 
-
 .text {
-  background-color: rgba(190, 209, 228, 0.7) ; 
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
-  width: 600px;
+  width: 40%;
   height: auto;
   padding: 40px;
   position: absolute;
-  margin-left: 700px;
-  margin-top: -450px;
 }
 
-* {box-sizing: border-box} 
+* {box-sizing: border-box}
 
 /* Hide the images by default */
 .mySlides{
   display:none;
-  width: 1182px;
-  height:720px;
+  width: 82%;
   margin-top:0px;
-  margin-left: 258px;
+  margin-left: 18%;
   position: relative;
 }
 
 .prev {
-  margin-left: 260px;
+  margin-left: 18%;
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
   color:#e7c7cf;
   font-weight: bold;
   font-size: 30px;
@@ -135,11 +152,10 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
-  margin-left: 1390px;
+  margin-left: 97%;
   color: #e7c7cf;
   font-weight: bold;
   font-size: 30px;
@@ -150,13 +166,13 @@ body{
 
 .prev:hover, .next:hover {
   background-color: rgba(115, 53, 93, 0.5);
-  
+
 }
 
 .prikker {
   position: absolute;
-  margin-left:780px;
-  margin-top: -60px;
+  margin-left:55%;
+  margin-top: -2%;
 }
 
 /* The dots/bullets/indicators */
@@ -169,24 +185,22 @@ body{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-
 .active, .dot:hover {
   background-color: #73355d;
 }
 
+.monaknap {
+  width: 60%; /* længden på knappen */
+  text-align: center;
+  background: #bed1e4;
+  margin-left: 16%; /* placering af knap - for at få den fra venstre, ind til midten */
+  padding: 15px;
+  color: black; /* farven på teksten i knappen */
+  border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
+  cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
+}
 
-/* On smaller screens, decrease text size */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  } 
-  .prikker {
-    margin-left: 500px;
-  }
-  
-
-@media screen and (max-width: 600px) {
-body {
-  background-color: olive;
+.monaknap:hover{
+  background-color: #FFE5F3;
+  color:white;
 }
