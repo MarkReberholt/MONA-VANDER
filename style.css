@@ -13,13 +13,29 @@ body{
    background-color: #f3f5f9;
 }
 
-
 /* logo billede*/
 .logo {
+  display: block;
   width: 100px;
-  height: 100px;
-  margin: 30px 0 30px 75px;
+  height: auto;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    display: block;
+    width: 60px;
+    height: auto;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .wrapper{
  display: flex;
  position: relative;
@@ -38,6 +54,10 @@ body{
  margin-bottom: 30px;
 }
 
+ul {
+  padding-top: 50px;
+}
+
 .wrapper .sidebar ul li{
  padding: 15px;
  border-bottom: 1px;
@@ -50,6 +70,13 @@ body{
  display: inline-block;
  text-decoration: none;
  position: relative;
+ font-size: 14pt;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper .sidebar ul li a{
+   font-size: 7pt;
+  }
 }
 
 .wrapper .sidebar ul li a:after {
@@ -91,16 +118,42 @@ body{
  border-top-right-radius: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  .wrapper .sidebar .social_media a{
+   display: block;
+   width: 20px;
+   background: #bed1e4;
+   height: 20px;
+   line-height: 25px;
+   text-align: center;
+   margin: 0 5px;
+   color: #fff;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+  }
+}
 
 .text {
   background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
-  width: 600px;
+  width: 40%;
   height: auto;
   padding: 40px;
   position: absolute;
-  margin-left: 700px;
-  margin-top: -450px;
+  margin-left: 50%;
+  margin-top: -25%;
+}
+
+@media screen and (max-width: 1100px) {
+  .text {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-left: 24%;
+    margin-top: 20px;
+    font-size: 8pt;
+  }
 }
 
 * {box-sizing: border-box}
@@ -108,21 +161,19 @@ body{
 /* Hide the images by default */
 .mySlides{
   display:none;
-  width: 70%;
-  height:40%;
+  width: 82%;
   margin-top:0px;
-  margin-left: 16%;
+  margin-left: 18%;
   position: relative;
 }
 
 .prev {
-  margin-left: 260px;
+  margin-left: 18%;
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
   color:#e7c7cf;
   font-weight: bold;
   font-size: 30px;
@@ -135,17 +186,29 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
-  margin-left: 1390px;
+  margin-left: 97%;
   color: #e7c7cf;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  float: right;
+}
+
+@media screen and (max-width: 1100px) {
+  .next {
+    margin-left: 94%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .next {
+    margin-left: 89%;
+  }
 }
 
 .prev:hover, .next:hover {
@@ -155,8 +218,8 @@ body{
 
 .prikker {
   position: absolute;
-  margin-left:780px;
-  margin-top: -60px;
+  margin-left:55%;
+  margin-top: -2%;
 }
 
 /* The dots/bullets/indicators */
@@ -187,24 +250,4 @@ body{
 .monaknap:hover{
   background-color: #FFE5F3;
   color:white;
-}
-
-
-
-
-
-/* On smaller screens,*/
-@media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-  .prikker {
-    margin-left: 500px;
-  }
-  .wrapper {
-
-  }
-  .myslides {
-  width: 200px;
-  }
 }

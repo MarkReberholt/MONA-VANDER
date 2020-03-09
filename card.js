@@ -8,7 +8,7 @@ var products = {
   },
   2 : {
     name : "Brun kop",
-    desc : "Keramisk kop i brun. Perfekt til at peppe te-selskabet op.",
+    desc : "Keramisk, unik kop i brun. Perfekt til at peppe te-selskabet op.",
     img : "img/ansigtskrus/krusbrun2.jpg",
     price : 400
   },
@@ -20,7 +20,7 @@ var products = {
   },
   4 : {
     name : "Hvid kop",
-    desc : "Keramisk kop i hvid. Ansigt placeret på indersiden.",
+    desc : "Keramisk, unik kop i hvid. Ansigt placeret på indersiden.",
     img : "img/ansigtskrus/storhvid2.jpg",
     price : 400
   }
