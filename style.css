@@ -60,14 +60,14 @@ body{
   height: 2px;
   left: 50%;
   position: absolute;
-  background-color: #bed1e4; 
+  background-color: #bed1e4;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
-.wrapper .sidebar ul li a:hover:after { 
-  width: 100%; 
-  left: 0; 
+.wrapper .sidebar ul li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .wrapper .sidebar .social_media{
@@ -93,7 +93,7 @@ body{
 
 
 .text {
-  background-color: rgba(190, 209, 228, 0.7) ; 
+  background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
   width: 600px;
   height: auto;
@@ -103,7 +103,7 @@ body{
   margin-top: -450px;
 }
 
-* {box-sizing: border-box} 
+* {box-sizing: border-box}
 
 /* Hide the images by default */
 .mySlides{
@@ -150,7 +150,7 @@ body{
 
 .prev:hover, .next:hover {
   background-color: rgba(115, 53, 93, 0.5);
-  
+
 }
 
 .prikker {
@@ -169,22 +169,39 @@ body{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-
 .active, .dot:hover {
   background-color: #73355d;
 }
+
+.monaknap {
+  width: 60%; /* længden på knappen */
+  text-align: center;
+  background: #bed1e4;
+  margin-left: 16%; /* placering af knap - for at få den fra venstre, ind til midten */
+  padding: 15px;
+  color: black; /* farven på teksten i knappen */
+  border-radius: 25px; /* antal pixels bestemmer hvor stor en runden der skal være i hjørnerne */
+  cursor: pointer; /* ved at holde musen over, viser den nu tegn til at man kan klikke på knappen: viser dog kun tegn */
+}
+
+.monaknap:hover{
+  background-color: #FFE5F3;
+  color:white;
+}
+
+
+
 
 
 /* On smaller screens, decrease text size */
 @media screen and (max-width: 992px) {
   body {
     background-color: blue;
-  } 
+  }
   .prikker {
     margin-left: 500px;
   }
-  
+
 
 @media screen and (max-width: 600px) {
 body {
