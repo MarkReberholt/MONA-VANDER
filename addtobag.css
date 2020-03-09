@@ -31,7 +31,7 @@ position: relative;
 
 .flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row;
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
