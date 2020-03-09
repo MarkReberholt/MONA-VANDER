@@ -16,7 +16,6 @@ body{
    background-color: #f3f5f9;
 }
 
-
 /* logo billede*/
 .logo {
   display: block;
@@ -25,6 +24,19 @@ body{
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    display: block;
+    width: 60px;
+    height: auto;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .wrapper{
@@ -62,6 +74,12 @@ ul {
  text-decoration: none;
  position: relative;
  font-size: 14pt;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper .sidebar ul li a{
+   font-size: 7pt;
+  }
 }
 
 .wrapper .sidebar ul li a:after {
@@ -103,13 +121,6 @@ ul {
  border-top-right-radius: 5px;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 1000px) {
-    .wrapper .sidebar ul li a{
-     font-size: 8pt;
-    }
-}
-
 .text {
   background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
@@ -119,6 +130,18 @@ ul {
   position: absolute;
   margin-left: 50%;
   margin-top: -25%;
+}
+
+@media screen and (max-width: 1100px) {
+  .text {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-left: 24%;
+    margin-top: 20px;
+    font-size: 8pt;
+  }
 }
 
 * {box-sizing: border-box}
@@ -161,6 +184,19 @@ ul {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  float: right;
+}
+
+@media screen and (max-width: 1100px) {
+  .next {
+    margin-left: 94%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .next {
+    margin-left: 89%;
+  }
 }
 
 .prev:hover, .next:hover {

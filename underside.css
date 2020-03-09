@@ -13,11 +13,12 @@ body{
    background-color: #f3f5f9;
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .wrapper .sidebar ul li a{
      font-size: 8pt;
     }
 }
+
 
 ul {
   padding-top: 50px;
@@ -191,7 +192,29 @@ ul {
   background-color:rgba(190, 209, 228, 0.7) ;
   position:relative;
 }
+.vandertekst1 {
+  margin-left:60%;
+  margin-top:2%;
+  width:32%;
+  padding: 25px;
+  line-height: 25px;
+  background-color:rgba(190, 209, 228, 0.7) ;
+  position:relative;
+}
 
+.contactbillede1 {
+margin-top: 2%;
+width: 30%;
+position:absolute;
+margin-left: 25%;
+}
+
+.contactbillede2{
+  margin-top: 5%;
+	width: 30%;
+	position:absolute;
+	margin-left: 25%;
+}
 .video {
   margin-top: 30%;
   margin-left: 25%;
@@ -303,6 +326,10 @@ ul {
  margin-bottom: 30px;
 }
 
+ul {
+  padding-top: 50px;
+}
+
 .wrapper .sidebar ul li{
  padding: 15px;
  border-bottom: 1px;
@@ -315,6 +342,13 @@ ul {
  display: inline-block;
  text-decoration: none;
  position: relative;
+ font-size: 14pt;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper .sidebar ul li a{
+     font-size: 8pt;
+    }
 }
 
 .wrapper .sidebar ul li a:after {
