@@ -110,6 +110,8 @@ position: relative;
   width: 20px;
   padding: 40px;
   border-radius: 20%;
+  border: 2px;
+  border-color: #000;
 }
 
 .c-empty { /* "tøm kurv" knap */
