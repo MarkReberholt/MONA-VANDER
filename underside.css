@@ -230,7 +230,6 @@ body{
   max-width: 300px;
   margin: auto;
   margin-bottom: 5%;
-  padding:
   text-align: center;
   font-family: arial;
   position: relative;
@@ -265,6 +264,11 @@ body{
 	position: relative;
 }
 
+.card p {
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
 /*_______________________MENUENS OPBYGNING______________________*/
 
 .wrapper{

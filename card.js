@@ -176,7 +176,7 @@ var cart = {
       // CHECKOUT BUTTONS
       item = document.createElement("input");
       item.type = "button";
-      item.value = "Gå til betaling - " + "kr." + total;
+      item.value = "Kurv - " + "kr." + total;
       item.addEventListener("click", cart.checkout);
       item.classList.add("c-checkout");
       container.appendChild(item);
