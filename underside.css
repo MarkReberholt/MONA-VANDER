@@ -110,7 +110,7 @@ body{
   position:absolute;
 }
 .contactbillede{
-	margin-top: 5%;
+	margin-top: 0%;
 	width: 30%;
 	position:absolute;
 	margin-left: 25%;
@@ -119,7 +119,7 @@ body{
 .map{
 	width:29%;
 	margin-left:26%;
-	margin-top:-25%;
+	margin-top:-20%;
 	position: absolute;
 }
 .adresse {
@@ -130,9 +130,9 @@ body{
 }
 
 .butik {
-  width:30%;
+  width:29%;
   margin-left:26%;
-  margin-top:-20%;
+  margin-top:-18%;
   position: absolute;
 }
 
@@ -176,6 +176,13 @@ body{
   line-height: 25px;
   background-color:rgba(190, 209, 228, 0.7) ;
   position:relative;
+}
+
+.video {
+  margin-top: 30%;
+  margin-left: 25%;
+  width: 70%;
+  position: absolute;;
 }
 
 /*_______________________WEBSHOP: PRODUKTER: 4 SLAGS______________*/

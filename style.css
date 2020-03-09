@@ -95,12 +95,12 @@ body{
 .text {
   background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
-  width: 600px;
+  width: 40%;
   height: auto;
   padding: 40px;
   position: absolute;
-  margin-left: 700px;
-  margin-top: -450px;
+  margin-left: 50%;
+  margin-top: -25%;
 }
 
 * {box-sizing: border-box}
@@ -108,21 +108,19 @@ body{
 /* Hide the images by default */
 .mySlides{
   display:none;
-  width: 70%;
-  height:40%;
+  width: 82%;
   margin-top:0px;
-  margin-left: 16%;
+  margin-left: 18%;
   position: relative;
 }
 
 .prev {
-  margin-left: 260px;
+  margin-left: 18%;
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
   color:#e7c7cf;
   font-weight: bold;
   font-size: 30px;
@@ -135,11 +133,10 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  margin-top: -25%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
-  margin-left: 1390px;
+  margin-left: 97%;
   color: #e7c7cf;
   font-weight: bold;
   font-size: 30px;
@@ -155,8 +152,8 @@ body{
 
 .prikker {
   position: absolute;
-  margin-left:780px;
-  margin-top: -60px;
+  margin-left:55%;
+  margin-top: -2%;
 }
 
 /* The dots/bullets/indicators */
@@ -198,13 +195,5 @@ body{
   body {
     background-color: blue;
   }
-  .prikker {
-    margin-left: 500px;
-  }
-  .wrapper {
 
-  }
-  .myslides {
-  width: 200px;
-  }
 }
