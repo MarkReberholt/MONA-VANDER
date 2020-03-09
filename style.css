@@ -184,6 +184,19 @@ ul {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  float: right;
+}
+
+@media screen and (max-width: 1100px) {
+  .next {
+    margin-left: 94%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .next {
+    margin-left: 89%;
+  }
 }
 
 .prev:hover, .next:hover {
