@@ -118,6 +118,21 @@ ul {
  border-top-right-radius: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  .wrapper .sidebar .social_media a{
+   display: block;
+   width: 20px;
+   background: #bed1e4;
+   height: 20px;
+   line-height: 25px;
+   text-align: center;
+   margin: 0 5px;
+   color: #fff;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+  }
+}
+
 .text {
   background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
