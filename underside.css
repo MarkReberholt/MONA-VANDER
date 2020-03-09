@@ -178,12 +178,7 @@ body{
   position:relative;
 }
 
-.video {
-  position: absolute;
-  margin-top: 40%;
-  margin-left: 22%;
-}
-
+/*_______________________WEBSHOP: PRODUKTER: 4 SLAGS______________*/
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
@@ -220,7 +215,7 @@ body{
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
-position: relative;
+  position: relative;
 }
 
 .card { /* pruduct card */
@@ -228,13 +223,14 @@ position: relative;
   max-width: 300px;
   margin: auto;
   margin-bottom: 5%;
+  padding:
   text-align: center;
   font-family: arial;
-position: relative;
+  position: relative;
 }
 
 .price {
-  color: grey;
+  color: darkred;
   font-size: 22px;
 	position: relative;
 }
@@ -335,9 +331,8 @@ position: relative;
  border-top-right-radius: 5px;
 }
 
-/* _____________ADD TO BAG___________________ */
-
-
+/* _____________ADD TO BAG: (virker ikke)vv_____________ */
+/*
 .show-cart li {
   display: flex;
 }
@@ -348,7 +343,9 @@ position: relative;
   width: 200px;
   height: 200px;
   align-self: center;
-}
+} */
+
+/*_____________PEEKABOO_____________*/
 
 #peekaboo{
     position:fixed;
@@ -359,4 +356,3 @@ position: relative;
     width:300px;
     height:200px;
     font-size:48px;
-}
