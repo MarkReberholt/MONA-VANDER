@@ -1,0 +1,123 @@
+/* [PAGE & WRAPPER] */
+html, body {
+  margin : 0;
+  padding : 0;
+  font-family: arial, sans-serif;
+}
+
+.card { /* Produkt card (rettet fra: #cart-products) = listen rykkede fra midten og ud til navigationen */
+margin-left: 18%;
+}
+
+#cart-list { /* "tilføjet til kurv" - boks */
+width: 50%
+}
+
+#cart-products, #cart-list {
+padding: 40px;
+}
+
+/*_________________[PRODUCTS]_____________________ */
+
+/*.card { /* hele produkt kortet */
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+position: relative;
+} */
+
+.flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.p-item { /* product card: hele firkanten */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+}
+.p-img { /* produkt billeder */
+  width: 300px;
+  height: 100%;
+}
+.p-name { /* produkt-navn: Produkt card - fx "strikkeskål" */
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p-price { /* Pris: Produkt card */
+  color: darkred;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.p-desc { /* beskrivelse af produkt: Produkt card */
+  color: grey;
+  font-size: 0.9em;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.p-add { /* "tilføj til kurv" knap: Produkt card */
+  background: #000;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-style:normal;
+  color: #fff;
+  font-size: 15px;
+}
+
+
+/*______________[CART LIST - KURV]_______________*/
+#cart-list {
+  position: fixed;
+}
+
+#cart-list div.c-item:nth-child(odd) {
+  background: lightgrey; /* produkter tilføjet til kurven */
+}
+
+.c-item { /*varer er tilføjet til kurv - gråt felt: "strikkeskål" */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 28%
+}
+
+.c-qty, .c-name { /* text i "items added-boksen" */
+  display: inline-block;
+  color: #000;
+}
+
+.c-qty { /* hvid "mængde/antal-boks" */
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+}
+
+.c-empty, .c-checkout { /* "tøm kurv" og "gå til betaling" knapperne */
+  border: 1px;
+  height: 10px;
+  width: 20px;
+  padding: 40px;
+  border-radius: 20%;
+  border: 2px;
+  border-color: #000;
+}
+
+.c-empty { /* "tøm kurv" knap */
+  background: #f60;
+}
+
+.c-checkout { /* gå til betaling knap */
+  background: #d6ffcf;
+}

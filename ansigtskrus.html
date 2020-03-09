@@ -4,14 +4,17 @@
 	<meta charset="UTF-8">
 	<title>webshop underside. Ansigts krus</title>
   <link rel="stylesheet" href="underside.css">
+	<link rel="stylesheet" href="addtobag.css">
+	<script src="card.js"></script>
 	<script src="konfetti.js" defer></script>
+
   <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One|Spartan&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div id="canvas_container">
-	<canvas id="my_canvas" width="1280" height="1500"></canvas>
-	</div>
+<canvas id="my_canvas" width="1680" height="2500"></canvas>
+</div>
 <div class="wrapper">
     <div class="sidebar">
         <img class="logo" src="img/logo.png" alt="Mona Vanders Logo">
@@ -19,9 +22,11 @@
         <ul>
             <li><a href="index.html"><i class="forside"></i>Forside</a></li>
             <li><a href="startside_webshop.html"><i class="webshop"></i>Webshop</a></li>
-            <li><a href="mona.html"><i class="hvem"></i>Hvem er Mona Vander?</a></li>
+            <li><a href="mona.html"><i class="hvem"></i>Om Mona Vander</a></li>
             <li><a href="contact.html"><i class="kontakt"></i>Kontakt</a></li>
         </ul>
+				<div id="cart-list"></div> <!-- tilføj evt. denne kode lige
+				under <ul> i navigationen, for at få den ud i menuen -->
         <div class="social_media">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -36,6 +41,8 @@
 <div class="headline_produkt"> ANSIGTS KRUS</div>
 
 <div class="flex-container"> <!-- flex-wrap (se underside.css) for at få "product cards" op på række -->
+
+<!-- gemmes: ikke aktiveret:
 <div class="card">
   <img class="produkt_1" src="img/ansigtskrus/strikkeskol2.jpg" alt="keramisk strikkeskål i hvid">
 	<br><br>
@@ -71,6 +78,10 @@
 	<br>
   <p><button>Tilføj til kurv</button></p>
 </div>
+-> første forsøg: ikke-fungerende webshop -->
+
+<div id="cart-products"></div> <!-- ____PRODUCT CARTS: WEBSHOP____-->
+
 </div> <!-- slut-tag på flex-container -->
 </body>
 </html>
