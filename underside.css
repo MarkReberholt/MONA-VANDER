@@ -191,7 +191,29 @@ ul {
   background-color:rgba(190, 209, 228, 0.7) ;
   position:relative;
 }
+.vandertekst1 {
+  margin-left:60%;
+  margin-top:2%;
+  width:32%;
+  padding: 25px;
+  line-height: 25px;
+  background-color:rgba(190, 209, 228, 0.7) ;
+  position:relative;
+}
 
+.contactbillede1 {
+margin-top: 2%;
+width: 30%;
+position:absolute;
+margin-left: 25%;
+}
+
+.contactbillede2{
+  margin-top: 5%;
+	width: 30%;
+	position:absolute;
+	margin-left: 25%;
+}
 .video {
   margin-top: 30%;
   margin-left: 25%;
