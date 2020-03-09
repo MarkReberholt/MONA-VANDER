@@ -4,25 +4,25 @@ var products = {
     name : "Strikke skål",
     desc : "Keramisk unik strikke skål i hvid. Perfekt til de kreative dage.",
     img : "img/ansigtskrus/strikkeskol2.jpg",
-    price : 550
+    price : 600
   },
   2 : {
     name : "Brun kop",
-    desc : "Unsatiable invitation its possession nor off.",
+    desc : "Keramisk kop i brun. Perfekt til at peppe te-selskabet op.",
     img : "img/ansigtskrus/krusbrun2.jpg",
-    price : 500
+    price : 400
   },
   3 : {
     name : "Hvidt krus",
-    desc : "All difficulty estimating unreserved increasing the solicitude.",
+    desc : "Keramisk krus i rustik hvid. Giver et unikt præg til hverdagen.",
     img : "img/ansigtskrus/handshvidcloseup2.jpg",
-    price : 500
+    price : 450
   },
   4 : {
-    name : "Blalabla",
-    desc : "Had judgment out opinions property the supplied. ",
-    img : "img/ansigtskrus/strikkeskol2.jpg",
-    price : 842
+    name : "Hvid kop",
+    desc : "Keramisk kop i hvid. Ansigt placeret på indersiden.",
+    img : "img/ansigtskrus/storhvid2.jpg",
+    price : 400
   }
 };
 
@@ -176,7 +176,7 @@ var cart = {
       // CHECKOUT BUTTONS
       item = document.createElement("input");
       item.type = "button";
-      item.value = "Gå til betaling - " + "kr." + total;
+      item.value = "Kurv - " + "kr." + total;
       item.addEventListener("click", cart.checkout);
       item.classList.add("c-checkout");
       container.appendChild(item);
