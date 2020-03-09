@@ -55,7 +55,7 @@ body{
   margin-left: 60%;
   margin-top: 1.5%;
   background-color: rgba(190, 209, 228, 0.7) ;
-  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */  
+  position:relative; /* boxens struktur befinder sig UNDER: det er nu muligt at have tekstbokse øverst */
 }
 
 .form,
@@ -72,7 +72,7 @@ body{
   border: 0;
   /*Gør måske brug af: "border-radius: 30px;" = hjørnerne bliver runde */
   color: #000000;
-  font-size: 14px;	
+  font-size: 14px;
 }
 
 .form-items .input.message{
@@ -98,7 +98,7 @@ body{
 
 .btn:hover{
   background-color: #FFE5F3;
-  color:white; 
+  color:white;
 }
 
 .textbox{ /* Boxens opbygning */
@@ -123,7 +123,7 @@ body{
 	position: absolute;
 }
 .adresse {
-  margin-top: 20%; 
+  margin-top: 20%;
   position: relative;
   margin-left: 60%;
   font-size: 30px;
@@ -159,17 +159,17 @@ body{
 /*_______________________Om Mona Side______________*/
 
 
-#canvas_container{ 
-  width:100%; 
+#canvas_container{
+  width:100%;
   margin:0;
   position: absolute;
 }
-#my_canvas{ 
+#my_canvas{
  display: block;
 }
 
 .vandertekst {
-  margin-left:60%; 
+  margin-left:60%;
   margin-top:5%;
   width:32%;
   padding: 25px;
@@ -178,6 +178,11 @@ body{
   position:relative;
 }
 
+.video {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 22%;
+}
 
 
 .flex-container_startside { /* flex: Produkterne kommer op på række (flex-wrap: wrap;) = responsiv */
@@ -299,14 +304,14 @@ position: relative;
   height: 2px;
   left: 50%;
   position: absolute;
-  background-color: #bed1e4; 
+  background-color: #bed1e4;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
-.wrapper .sidebar ul li a:hover:after { 
-  width: 100%; 
-  left: 0; 
+.wrapper .sidebar ul li a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .wrapper .sidebar .social_media{
