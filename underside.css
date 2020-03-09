@@ -223,6 +223,7 @@ body{
   max-width: 300px;
   margin: auto;
   margin-bottom: 5%;
+  padding:
   text-align: center;
   font-family: arial;
   position: relative;
@@ -330,9 +331,19 @@ body{
  border-top-right-radius: 5px;
 }
 
-/* _____________ADD TO BAG___________________ */
-
-
+/* _____________ADD TO BAG: (virker ikke)vv_____________ */
+/*
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+} */
 
 /*_____________PEEKABOO_____________*/
 

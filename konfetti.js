@@ -3,7 +3,7 @@ bg.src = "img/konfetti.png";
 function initCanvas(){
     var ctx = document.getElementById('my_canvas').getContext('2d');
     var cW = ctx.canvas.width, cH = ctx.canvas.height;
-	
+
     function Background(){
         this.x = 0, this.y = 0, this.w = bg.width, this.h = bg.height;
         this.render = function(){
@@ -14,7 +14,7 @@ function initCanvas(){
         }
     }
     var background = new Background();
-	
+
     function animate(){
         ctx.save();
         ctx.clearRect(0, 0, cW, cH);
