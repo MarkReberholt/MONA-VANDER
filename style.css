@@ -16,14 +16,6 @@ body{
    background-color: #f3f5f9;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 1000px) {
-    .wrapper .sidebar ul li a{
-     font-size: 8pt;
-    }
-
-}
-
 /* logo billede*/
 .logo {
   display: block;
@@ -71,6 +63,12 @@ ul {
  font-size: 14pt;
 }
 
+@media screen and (max-width: 1000px) {
+  .wrapper .sidebar ul li a{
+   font-size: 8pt;
+  }
+}
+
 .wrapper .sidebar ul li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -111,15 +109,22 @@ ul {
 }
 
 .text {
-  display: block;
-  margin-left: auto;
-  margin-top: auto;
   background-color: rgba(190, 209, 228, 0.7) ;
   line-height: 1.8;
   width: 40%;
   height: auto;
   padding: 40px;
   position: absolute;
+  margin-left: 50%;
+  margin-top: -25%;
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 * {box-sizing: border-box}
