@@ -47,6 +47,7 @@ body{
     }
 }
 
+
 ul {
   padding-top: 50px;
 }
@@ -370,6 +371,12 @@ ul {
  text-decoration: none;
  position: relative;
  font-size: 14pt;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper .sidebar ul li a{
+     font-size: 8pt;
+    }
 }
 
 .wrapper .sidebar ul li a:after {
