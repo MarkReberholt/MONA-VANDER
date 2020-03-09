@@ -344,7 +344,7 @@ position: relative;
   height: 200px;
   align-self: center;
 }
-#peekaboo{
+div#peekaboo{
 	position: fixed;
 	bottom: 300px;
 	right: -352px;
