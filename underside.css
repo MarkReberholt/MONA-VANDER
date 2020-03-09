@@ -473,6 +473,12 @@ margin-left: 25%;
     padding:25px;
     width:300px;
     height:200px;
+
+    font-size:22px;
+	font-family: quicksand;
+}
+
+
     font-size: 15pt;
 }
 
@@ -499,3 +505,4 @@ margin-left: 25%;
      display: block;
      float: right;
     }
+

@@ -1,5 +1,5 @@
 /* [PAGE & WRAPPER] */
-html, body {
+html,body {
   margin : 0;
   padding : 0;
   font-family: arial, sans-serif;
@@ -31,7 +31,6 @@ position: relative;
 
 .flex-container { /* flex: Product Cards kommer op på række (flex-wrap: wrap;) = responsiv */
   display: flex;
-  flex-wrap: row;
   margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
